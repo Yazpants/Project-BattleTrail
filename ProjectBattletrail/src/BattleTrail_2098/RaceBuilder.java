@@ -3,7 +3,7 @@ package BattleTrail_2098;
 /**
  * This class handles creation of the races
  * To add a new race just look how the human was made
- *
+ *      @author victor
  * Created by: emil
  * Version: 2017-02-24
  */

@@ -2,7 +2,7 @@ package BattleTrail_2098;
 
 /**
  * Handles the race related data
- *
+ *@author victor
  * Created by: emil
  * Version: 2017-02-24
  */
