@@ -10,8 +10,10 @@ package BattleTrail_2098;
 public class RaceBuilder {
     Race human;
 
+
     RaceBuilder() {
         // Test hardcoded race
         human = new Race("Human", 10,10,10,10);
     }
+
 }

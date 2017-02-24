@@ -1,5 +1,8 @@
 package BattleTrail_2098;
 
+/**
+ * Created by: victor
+ */
 /*
     Controls player Stats, Inventory, and such
  */
@@ -51,6 +54,15 @@ public class Player {
      */
     public double getStr() {
         return (playerRace.getStr() + (double) level);
+    }
+    public double getIntl() {
+        return (playerRace.getIntl() + (double) level);
+    }
+    public double getHealth() {
+        return  (playerRace.getHealth() + (double) level);
+    }
+    public double getLuck() {
+        return (playerRace.getLuck() + (double) level);
     }
 
     /**

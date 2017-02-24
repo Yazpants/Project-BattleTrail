@@ -40,7 +40,15 @@ public class Race {
     public double getStr() {
         return str;
     }
-
+    public double getHealth() {
+        return health;
+    }
+    public double getIntl() {
+        return intl;
+    }
+    public double getLuck() {
+        return luck;
+    }
 
     /**
      * Returns the race name

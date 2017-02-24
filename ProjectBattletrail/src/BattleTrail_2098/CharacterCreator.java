@@ -1,5 +1,7 @@
 package BattleTrail_2098;
-
+/**
+ * @author victor
+ */
 
 import java.util.Scanner;
 
@@ -89,6 +91,7 @@ public class CharacterCreator {
         System.out.println("Character creation complete!");
         System.out.println("You picked race " + player.getRaceName());
         double str =0; // dirty hack not sure why i have to do this
-        System.out.println("Your strength is " + player.getStr());
+        System.out.println("Your overall perks and stats: \n " + "STR: " + player.getStr() + "HP: " +
+                player.getHealth() + "INT: " + player.getIntl() + "LUCK: " + player.getLuck());
     }
 }
