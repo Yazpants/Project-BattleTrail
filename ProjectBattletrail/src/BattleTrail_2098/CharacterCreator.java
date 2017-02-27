@@ -52,7 +52,7 @@ public class CharacterCreator {
                 choice.equals("ROBOT")|| choice.equals("MUTANT")) {
             correct = true;
 
-            // SImple hardcoded setup that makes the player into human. no matter his choice :P
+            // Simple hardcoded setup that makes the player into human. no matter his choice :P
             RaceBuilder raceBuilder = new RaceBuilder();
             player.setPlayerRace(raceBuilder.human);
 
@@ -93,6 +93,7 @@ public class CharacterCreator {
     public void finalStep() {
         System.out.println("Character creation complete!");
         System.out.println("You picked race " + player.getRaceName());
+        System.out.println("You picked class " + player.getClassName() + " " + player.getClassDescription());
         double str =0; // dirty hack not sure why i have to do this
         System.out.println("Your overall perks and stats: \n " + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());

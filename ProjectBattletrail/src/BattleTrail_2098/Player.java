@@ -8,6 +8,7 @@ package BattleTrail_2098;
  */
 public class Player {
     Classes playerClass;
+    Classes classDescription;
     Race playerRace;
     int level;
 
@@ -36,14 +37,6 @@ public class Player {
     }
 
     /**
-     * Returns player class in string
-     * @return
-     */
-    public  String getClassName() {
-        return playerClass.getClassname();
-    }
-
-    /**
      * Returns the specified stat in double
      * @return stat in double
      */
@@ -68,6 +61,21 @@ public class Player {
         playerRace = race;
     }
 
+    /**
+     * Returns player class in string
+     * @return
+     */
+    public  String getClassName() {
+        return playerClass.getClassname();
+    }
+
+    /**
+     * returns description of class
+     * @return
+     */
+    public String getClassDescription() {
+        return playerClass.getClassDescription();
+    }
     /**
      * Sets players class
      * @param classes
