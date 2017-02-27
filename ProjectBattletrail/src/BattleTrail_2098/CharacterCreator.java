@@ -51,10 +51,7 @@ public class CharacterCreator {
         if (choice.equals("HUMAN") || choice.equals("CYBORG") || choice.equals("MARTIAN") ||
                 choice.equals("ROBOT")|| choice.equals("MUTANT")) {
             correct = true;
-
-            // Simple hardcoded setup that makes the player into human. no matter his choice :P
-            RaceBuilder raceBuilder = new RaceBuilder();
-            player.setPlayerRace(raceBuilder.human);
+            
 
 
         } else {
@@ -80,9 +77,7 @@ public class CharacterCreator {
         if (choice.equals("SOLDIER") || choice.equals("HACKER") || choice.equals("PALADIN") ||
                 choice.equals("TELEPATH") || choice.equals("FIGHTER")) {
             correct = true;
-            //Hardcoded setup test
-            RoleBuilder roleBuilder = new RoleBuilder();
-            player.setPlayerRole(roleBuilder.hacker);
+
         } else {
             System.out.println("Not a class, please try again.");
             roleSelect();
