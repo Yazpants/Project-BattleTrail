@@ -7,6 +7,7 @@ package BattleTrail_2098;
     Controls player Stats, Inventory, and such
  */
 public class Player {
+    Classes playerClass;
     Race playerRace;
     int level;
 
@@ -35,6 +36,14 @@ public class Player {
     }
 
     /**
+     * Returns player class in string
+     * @return
+     */
+    public  String getClassName() {
+        return playerClass.getClassname();
+    }
+
+    /**
      * Returns the specified stat in double
      * @return stat in double
      */
@@ -59,5 +68,12 @@ public class Player {
         playerRace = race;
     }
 
+    /**
+     * Sets players class
+     * @param classes
+     */
+    public void setPlayerClass(Classes classes) {
+        playerClass = classes;
+    }
 
 }

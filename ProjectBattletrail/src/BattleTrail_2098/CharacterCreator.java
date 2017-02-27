@@ -80,6 +80,9 @@ public class CharacterCreator {
         if (choice.equals("SOLDIER") || choice.equals("HACKER") || choice.equals("PALADIN") ||
                 choice.equals("TELEPATH") || choice.equals("FIGHTER")) {
             correct = true;
+            //Hardcoded setup test
+            ClassBuilder  classBuilder = new ClassBuilder();
+            player.setPlayerClass(classBuilder.hacker);
 
         } else {
             System.out.println("Not a class, please try again.");
