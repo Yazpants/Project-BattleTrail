@@ -10,10 +10,10 @@ public class Role {
 
     /**
      *
-     * @param role name of player class
+     * @param roleName name of player class
      * @param roleDescription description of class properties
      */
-    Role(String role, String roleDescription) {
+    Role(String roleName, String roleDescription) {
         this.roleName = roleName;
         this.roleDescription = roleDescription;
     }

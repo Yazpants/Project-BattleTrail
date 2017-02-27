@@ -94,7 +94,9 @@ public class CharacterCreator {
         System.out.println("You picked race " + player.getRaceName());
         System.out.println("You picked the " + player.getRoleName() + " role!");
         double str =0; // dirty hack not sure why i have to do this
-        System.out.println("Your overall perks and stats: \n " + "STR: " + player.getStr() + " HP: " +
+
+        System.out.println("Your overall perks and stats:\n" + player.getRoleDescription() +
+              "(Passive)\n"  + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());
     }
 }
