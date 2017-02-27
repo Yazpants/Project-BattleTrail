@@ -5,7 +5,7 @@ package BattleTrail_2098;
  * Created by victor on 2017-02-27.
  */
 public class Role {
-    String role;
+    String roleName;
     String roleDescription;
 
     /**
@@ -14,7 +14,7 @@ public class Role {
      * @param roleDescription description of class properties
      */
     Role(String role, String roleDescription) {
-        this.role = role;
+        this.roleName = roleName;
         this.roleDescription = roleDescription;
     }
 
@@ -23,7 +23,7 @@ public class Role {
      * @return
      */
     public String getRolename() {
-        return role;
+        return roleName;
     }
 
     /**

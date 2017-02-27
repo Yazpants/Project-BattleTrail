@@ -13,11 +13,11 @@ public class RoleBuilder {
 
     RoleBuilder() {
         //Test hardcoded race
-        soldier = new Role("Soldier", " - ");
-        hacker = new Role("Hacker", " - ");
-        paladin = new Role("Paladin", " - ");
-        telepath = new Role("Telepath", " - ");
-        fighter = new Role("Fighter", " - ");
+        soldier = new Role("Soldier", " Overall ");
+        hacker = new Role("Hacker", " Stealth ");
+        paladin = new Role("Paladin", " Tank ");
+        telepath = new Role("Telepath", " Support ");
+        fighter = new Role("Fighter", " Offensive ");
 
     }
 
