@@ -12,7 +12,7 @@ public class CharacterCreator {
     public void createCharacter() {
         genderSelect();
         raceSelect();
-        classSelect();
+        roleSelect();
         finalStep();
     }
 
@@ -64,7 +64,7 @@ public class CharacterCreator {
 
     }
     // Class creation
-    private void classSelect() {
+    private void roleSelect() {
         boolean correct = false;
 
         System.out.println();
@@ -81,19 +81,18 @@ public class CharacterCreator {
                 choice.equals("TELEPATH") || choice.equals("FIGHTER")) {
             correct = true;
             //Hardcoded setup test
-            ClassBuilder  classBuilder = new ClassBuilder();
-            player.setPlayerClass(classBuilder.hacker);
-
+            RoleBuilder roleBuilder = new RoleBuilder();
+            player.setPlayerRole(roleBuilder.hacker);
         } else {
             System.out.println("Not a class, please try again.");
-            classSelect();
+            roleSelect();
         }
     }
 
     public void finalStep() {
         System.out.println("Character creation complete!");
         System.out.println("You picked race " + player.getRaceName());
-        System.out.println("You picked class " + player.getClassName() + " " + player.getClassDescription());
+        System.out.println("You picked the " + player.getRoleName() + " role!");
         double str =0; // dirty hack not sure why i have to do this
         System.out.println("Your overall perks and stats: \n " + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());
