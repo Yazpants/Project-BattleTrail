@@ -11,11 +11,6 @@ import java.util.ArrayList;
  * Version: 2017-02-24
  */
 public class RaceBuilder {
-    Race human;
-    Race cyborg;
-    Race martian;
-    Race robot;
-    Race mutant;
     ArrayList<String> raceList = new ArrayList<>();
 
 
