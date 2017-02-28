@@ -7,29 +7,42 @@ import java.util.ArrayList;
  * Created by victor on 2017-02-27.
  */
 public class RoleBuilder {
-    Role soldier;
-    Role hacker;
-    Role paladin;
-    Role telepath;
-    Role fighter;
+
     ArrayList<String> roleList = new ArrayList<>();
 
     RoleBuilder() {
 
-        soldier = new Role("Soldier", " Overall ");
-        hacker = new Role("Hacker", " Stealth ");
-        paladin = new Role("Paladin", " Tank ");
-        telepath = new Role("Telepath", " Support ");
-        fighter = new Role("Fighter", " Offensive ");
-        roleList.add("SOLDIER");
-        roleList.add("HACKER");
-        roleList.add("PALADIN");
-        roleList.add("TELEPATH");
-        roleList.add("FIGHTER");
+
+        addRole("Soldier", " Overall ");
+        addRole("Hacker", " Stealth");
+        addRole("Paladin", " Tank ");
+        addRole("Telepath", " Support ");
+        addRole("Fighter", " Offense ");
 
     }
-    public boolean checkIfRoleExist(String role) {
-        return roleList.contains(role);
+
+    /**
+     *
+     * @param roleName name of role
+     * @param roleDescription description of player role
+     */
+    private void addRole(String roleName, String roleDescription) {
+        //new role object
+        Role newRole = new Role(roleName, roleDescription);
+
+        //add the role name to arrayList
+        roleName = roleName.toUpperCase();
+        roleList.add(roleName);
+    }
+
+    /**
+     *
+     * @param roleName name of role
+     * @return true if role exists
+     */
+    public boolean checkIfRoleExist(String roleName) {
+        roleName = roleName.toUpperCase();
+        return roleList.contains(roleName);
     }
 
 }
