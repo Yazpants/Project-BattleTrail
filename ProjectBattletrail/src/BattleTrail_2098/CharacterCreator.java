@@ -37,7 +37,7 @@ public class CharacterCreator {
     //Race creation
     private void raceSelect() {
         boolean correct = false;
-
+        RaceBuilder rb = new RaceBuilder();
         System.out.println();
         System.out.println("Select race down below:");
         System.out.println("Human\n" +
@@ -48,11 +48,8 @@ public class CharacterCreator {
         String choice = input.next();
         choice = choice.toUpperCase();
 
-        if (choice.equals("HUMAN") || choice.equals("CYBORG") || choice.equals("MARTIAN") ||
-                choice.equals("ROBOT")|| choice.equals("MUTANT")) {
+        if(rb.checkIfRaceExist(choice)){
             correct = true;
-            
-
 
         } else {
             System.out.println("Invalid choice, please try again.");
@@ -63,7 +60,7 @@ public class CharacterCreator {
     // Class creation
     private void roleSelect() {
         boolean correct = false;
-
+        RoleBuilder rlb = new RoleBuilder();
         System.out.println();
         System.out.println("Now finally, select your class:");
         System.out.println("Soldier\n" +
@@ -74,8 +71,7 @@ public class CharacterCreator {
         String choice = input.next();
         choice = choice.toUpperCase();
 
-        if (choice.equals("SOLDIER") || choice.equals("HACKER") || choice.equals("PALADIN") ||
-                choice.equals("TELEPATH") || choice.equals("FIGHTER")) {
+        if (rlb.checkIfRoleExist(choice)) {
             correct = true;
 
         } else {

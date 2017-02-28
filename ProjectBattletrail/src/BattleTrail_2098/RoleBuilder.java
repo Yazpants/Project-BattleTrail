@@ -15,7 +15,7 @@ public class RoleBuilder {
     ArrayList<String> roleList = new ArrayList<>();
 
     RoleBuilder() {
-        //Test hardcoded race
+
         soldier = new Role("Soldier", " Overall ");
         hacker = new Role("Hacker", " Stealth ");
         paladin = new Role("Paladin", " Tank ");
