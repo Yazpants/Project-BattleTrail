@@ -43,7 +43,6 @@ public class RaceBuilder {
         // We add the race name to the array list
         raceName = raceName.toUpperCase();
         raceList.put(raceName, newRace);
-
     }
 
     /**

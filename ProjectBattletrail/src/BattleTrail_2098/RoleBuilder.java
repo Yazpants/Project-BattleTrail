@@ -35,7 +35,6 @@ public class RoleBuilder {
         roleName = roleName.toUpperCase();
         roleList.put(roleName, newRole);
     }
-
     /**
      *
      * @param roleName name of role
