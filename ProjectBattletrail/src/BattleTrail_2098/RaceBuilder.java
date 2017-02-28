@@ -1,7 +1,8 @@
 package BattleTrail_2098;
 
 
-import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
 /**
  * This class handles creation of the races
@@ -12,7 +13,7 @@ import java.util.ArrayList;
  */
 public class RaceBuilder {
 
-    ArrayList<String> raceList = new ArrayList<>();
+   Map<String, Race> raceList = new HashMap<String, Race>();
 
 
     /**
@@ -41,7 +42,7 @@ public class RaceBuilder {
 
         // We add the race name to the array list
         raceName = raceName.toUpperCase();
-        raceList.add(raceName);
+        raceList.put(raceName, newRace);
 
     }
 
@@ -53,7 +54,7 @@ public class RaceBuilder {
     public boolean checkIfRaceExist(String raceName) {
         //Ensuring that the race name
         raceName = raceName.toUpperCase();
-        return raceList.contains(raceName);
+        return raceList.containsKey(raceName);
     }
 
 }

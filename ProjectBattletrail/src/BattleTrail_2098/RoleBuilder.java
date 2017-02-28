@@ -1,6 +1,7 @@
 package BattleTrail_2098;
 
-import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
 /** This handles the creation of player classes
  * Makes it easy to add new things
@@ -8,7 +9,7 @@ import java.util.ArrayList;
  */
 public class RoleBuilder {
 
-    ArrayList<String> roleList = new ArrayList<>();
+    Map<String, Role> roleList = new HashMap<String, Role>();
 
     RoleBuilder() {
 
@@ -32,7 +33,7 @@ public class RoleBuilder {
 
         //add the role name to arrayList
         roleName = roleName.toUpperCase();
-        roleList.add(roleName);
+        roleList.put(roleName, newRole);
     }
 
     /**
@@ -42,7 +43,7 @@ public class RoleBuilder {
      */
     public boolean checkIfRoleExist(String roleName) {
         roleName = roleName.toUpperCase();
-        return roleList.contains(roleName);
+        return roleList.containsKey(roleName);
     }
 
 }
