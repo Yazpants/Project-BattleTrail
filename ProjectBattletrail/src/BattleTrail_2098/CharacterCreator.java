@@ -17,6 +17,7 @@ public class CharacterCreator {
     }
 
     //Character creator
+
     private void genderSelect(){
         boolean correct = false;
 
