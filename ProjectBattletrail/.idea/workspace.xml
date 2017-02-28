@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a6b0073-4a96-4eba-9123-e55fdc034584" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectBattletrail/BattleTrail_2098/BattleTrailDemo.class" afterPath="$PROJECT_DIR$/out/production/ProjectBattletrail/BattleTrail_2098/BattleTrailDemo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectBattletrail/BattleTrail_2098/CharacterCreator.class" afterPath="$PROJECT_DIR$/out/production/ProjectBattletrail/BattleTrail_2098/CharacterCreator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleTrail_2098/Race.java" afterPath="$PROJECT_DIR$/src/BattleTrail_2098/Race.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" afterPath="$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleTrail_2098/Player.java" afterPath="$PROJECT_DIR$/src/BattleTrail_2098/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java" afterPath="$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BattleTrail_2098/RoleBuilder.java" afterPath="$PROJECT_DIR$/src/BattleTrail_2098/RoleBuilder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -26,6 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -105,6 +107,17 @@
 >>>>>>> master
               <folding />
 >>>>>>> master
+=======
+      <file leaf-file-name="RoleBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/RoleBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -112,6 +125,7 @@
       <file leaf-file-name="RaceBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -125,14 +139,19 @@
             <state relative-caret-position="115">
               <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
 >>>>>>> master
+=======
+            <state relative-caret-position="447">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharacterCreator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CharacterCreator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1218">
               <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
@@ -149,6 +168,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="-839">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -184,10 +207,15 @@
         <option value="$PROJECT_DIR$/src/BattleTrail_2098/BattleTrail_2098/RaceBuilder.java" />
         <option value="$PROJECT_DIR$/src/BattleTrail_2098/BattleTrail_2098/CharacterCreator.java" />
         <option value="$PROJECT_DIR$/src/BattleTrail_2098/BattleTrailDemo.java" />
-        <option value="$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" />
-        <option value="$PROJECT_DIR$/src/BattleTrail_2098/Player.java" />
-        <option value="$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java" />
         <option value="$PROJECT_DIR$/src/BattleTrail_2098/Race.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/Classes.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/ClassBuilder.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/Role.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/Player.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java" />
+        <option value="$PROJECT_DIR$/src/BattleTrail_2098/RoleBuilder.java" />
       </list>
     </option>
   </component>
@@ -201,6 +229,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="y" value="27" />
@@ -224,6 +253,11 @@
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
+>>>>>>> master
+=======
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
 >>>>>>> master
   </component>
   <component name="ProjectView">
@@ -269,6 +303,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,7 +360,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -334,9 +368,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LocalProjects" />
+>>>>>>> master
   </component>
   <component name="RunManager" selected="Application.BattleTrailDemo">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -636,7 +674,49 @@
       <option name="project" value="LOCAL" />
       <updated>1487961380496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UPDATE: Races and stats">
+      <created>1487962364991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487962364991</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UPDATE: Player Classes">
+      <created>1488188668059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488188668059</updated>
+    </task>
+    <task id="LOCAL-00007" summary="UPDATE: Player Classes">
+      <created>1488190130779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488190130779</updated>
+    </task>
+    <task id="LOCAL-00008" summary="UPDATE: Player Roles">
+      <created>1488191670960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488191670960</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UPDATE: Player Roles">
+      <created>1488191937915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1488191937915</updated>
+    </task>
+    <task id="LOCAL-00010" summary="UPDATE: Player Roles">
+      <created>1488193063760</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1488193063760</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
 <<<<<<< HEAD
@@ -657,7 +737,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1920" y="24" width="1920" height="1056" extended-state="6" />
+>>>>>>> master
+=======
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
 >>>>>>> master
     <editor active="false" />
 =======
@@ -677,6 +761,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5064586" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26673985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.49354145" order="7" side_tool="false" content_ui="tabs" />
@@ -684,10 +769,15 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27192983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35197368" sideWeight="0.49354145" order="7" side_tool="false" content_ui="tabs" />
 >>>>>>> master
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34983498" sideWeight="0.49354145" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19806243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
@@ -702,6 +792,9 @@
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17653391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> master
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18729816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,9 +812,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> master
+=======
 >>>>>>> master
     </layout>
   </component>
@@ -739,7 +835,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stats for now" />
     <MESSAGE value="UPDATE: Races and stats" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: Races and stats" />
+    <MESSAGE value="UPDATE: Player Classes" />
+    <MESSAGE value="UPDATE: Player Roles" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: Player Roles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -750,9 +848,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" />
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/BattleTrailDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java" />
     <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Player.java" />
     <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/BattleTrailDemo.java" />
@@ -918,6 +1013,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
@@ -939,10 +1035,24 @@
         <state relative-caret-position="69">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
 >>>>>>> master
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="848" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Player.java">
@@ -966,12 +1076,19 @@
         <state relative-caret-position="115">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
 >>>>>>> master
+=======
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Race.java">
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Player.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -989,12 +1106,17 @@
         <state relative-caret-position="20">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
 >>>>>>> master
+=======
+        <state relative-caret-position="-115">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/BattleTrailDemo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -1018,13 +1140,37 @@
         <state relative-caret-position="1218">
 >>>>>>> master
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+=======
+        <state relative-caret-position="69">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+>>>>>>> master
           <folding />
 >>>>>>> master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/RoleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/RaceBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BattleTrail_2098/CharacterCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="161">
@@ -1054,6 +1200,10 @@
 =======
         <state relative-caret-position="380">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> master
+=======
+        <state relative-caret-position="-839">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
 >>>>>>> master
           <folding />
 >>>>>>> master

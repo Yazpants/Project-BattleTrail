@@ -12,7 +12,7 @@ public class CharacterCreator {
     public void createCharacter() {
         genderSelect();
         raceSelect();
-        classSelect();
+        roleSelect();
         finalStep();
     }
 
@@ -51,10 +51,7 @@ public class CharacterCreator {
         if (choice.equals("HUMAN") || choice.equals("CYBORG") || choice.equals("MARTIAN") ||
                 choice.equals("ROBOT")|| choice.equals("MUTANT")) {
             correct = true;
-
-            // SImple hardcoded setup that makes the player into human. no matter his choice :P
-            RaceBuilder raceBuilder = new RaceBuilder();
-            player.setPlayerRace(raceBuilder.human);
+            
 
 
         } else {
@@ -64,7 +61,7 @@ public class CharacterCreator {
 
     }
     // Class creation
-    private void classSelect() {
+    private void roleSelect() {
         boolean correct = false;
 
         System.out.println();
@@ -83,15 +80,18 @@ public class CharacterCreator {
 
         } else {
             System.out.println("Not a class, please try again.");
-            classSelect();
+            roleSelect();
         }
     }
 
     public void finalStep() {
         System.out.println("Character creation complete!");
         System.out.println("You picked race " + player.getRaceName());
+        System.out.println("You picked the " + player.getRoleName() + " role!");
         double str =0; // dirty hack not sure why i have to do this
-        System.out.println("Your overall perks and stats: \n " + "STR: " + player.getStr() + " HP: " +
+
+        System.out.println("Your overall perks and stats:\n" + player.getRoleDescription() +
+              "(Passive)\n"  + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());
     }
 }
