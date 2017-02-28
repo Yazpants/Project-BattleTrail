@@ -45,5 +45,15 @@ public class RoleBuilder {
         return roleList.containsKey(roleName);
     }
 
+    /**
+     * returns role from given string
+     * @param roleName name of role
+     * @return role
+     */
+    public Role getRole(String roleName) {
+        roleName = roleName.toUpperCase();
+        return roleList.get(roleName);
+    }
+
 }
 
