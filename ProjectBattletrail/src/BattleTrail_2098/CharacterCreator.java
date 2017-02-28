@@ -49,7 +49,7 @@ public class CharacterCreator {
         String choice = input.next();
         choice = choice.toUpperCase();
 
-        if(rb.checkIfRaceExist(choice)){
+        if (rb.checkIfRaceExist(choice)){
             correct = true;
 
         } else {
