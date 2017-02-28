@@ -56,6 +56,17 @@ public class RaceBuilder {
         return raceList.containsKey(raceName);
     }
 
+
+    /**
+     * Returns race from given string
+     * @param raceName the name of a race
+     * @return race
+     */
+    public Race getRace(String raceName) {
+        raceName = raceName.toUpperCase();
+        return raceList.get(raceName);
+    }
+
 }
 
 
