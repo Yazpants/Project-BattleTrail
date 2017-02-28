@@ -20,7 +20,7 @@ public class RaceBuilder {
 
 
     RaceBuilder() {
-        // Test hardcoded race
+
         human = new Race("Human", 10,10,10,10);
         cyborg = new Race("Cyborg", 11, 12, 8, 9 );
         martian = new Race("Martian", 7, 14, 8,11);
