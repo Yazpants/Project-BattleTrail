@@ -15,10 +15,12 @@ public class CharacterCreator {
     public void createCharacter() {
         raceSelect();
         roleSelect();
+        nameSelect();
         finalStep();
     }
 
     //Character creator
+
 
     //Race creation
     private void raceSelect() {
@@ -66,6 +68,10 @@ public class CharacterCreator {
             System.out.println("Not a class, please try again.");
             roleSelect();
         }
+    }
+
+    public void nameSelect() {
+
     }
 
     public void finalStep() {
