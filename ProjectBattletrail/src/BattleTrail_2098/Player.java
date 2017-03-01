@@ -10,6 +10,7 @@ public class Player {
     Role playerRole;
     Role roleDescription;
     Race playerRace;
+    String name;
     int level;
 
     public void playerProperties() {
@@ -25,6 +26,12 @@ public class Player {
 
     private void inventorySystem() {
         // Implement later
+
+    }
+    public void getName() {
+
+    }
+    public void setName(String name) {
 
     }
 
