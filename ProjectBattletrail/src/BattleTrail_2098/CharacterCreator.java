@@ -8,6 +8,9 @@ import java.util.Scanner;
 public class CharacterCreator {
     Scanner input = new Scanner(System.in);
     Player player = new Player();
+    RaceBuilder rb = new RaceBuilder();
+    RoleBuilder rlb = new RoleBuilder();
+    FirstTestLevel firstTestLevel = new FirstTestLevel();
 
     public void createCharacter() {
         genderSelect();
@@ -50,6 +53,7 @@ public class CharacterCreator {
         choice = choice.toUpperCase();
 
         if (rb.checkIfRaceExist(choice)){
+            player.setPlayerRace(rb.getRace(choice));
             correct = true;
 
         } else {
@@ -73,6 +77,7 @@ public class CharacterCreator {
         choice = choice.toUpperCase();
 
         if (rlb.checkIfRoleExist(choice)) {
+            player.setPlayerRole(rlb.getRole(choice));
             correct = true;
 
         } else {
@@ -90,5 +95,9 @@ public class CharacterCreator {
         System.out.println("Your overall perks and stats:\n" + player.getRoleDescription() +
               "(Passive)\n"  + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());
+        System.out.println();
+        firstTestLevel.firstLevel();
+
     }
+
 }
