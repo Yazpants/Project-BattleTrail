@@ -30,7 +30,6 @@ public class CharacterCreator {
         System.out.println("Select race down below:");
         System.out.println("Human\n" +
                            "Cyborg\n" +
-                           "Martian\n" +
                            "Robot\n" +
                            "Mutant");
         String choice = input.next();
@@ -54,8 +53,6 @@ public class CharacterCreator {
         System.out.println("Now finally, select your class:");
         System.out.println("Soldier\n" +
                            "Hacker\n" +
-                           "Paladin\n" +
-                           "Telepath\n" +
                            "Fighter");
         String choice = input.next();
         choice = choice.toUpperCase();

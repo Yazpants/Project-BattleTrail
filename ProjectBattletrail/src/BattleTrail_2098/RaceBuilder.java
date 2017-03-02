@@ -22,7 +22,6 @@ public class RaceBuilder {
     RaceBuilder() {
         addRace("Human", 10,10,10,10);
         addRace("Cyborg", 11, 12, 8, 9 );
-        addRace("Martian", 7, 14, 8,11);
         addRace("Robot", 13, 11, 10, 6);
         addRace("Mutant", 9, 9, 13, 9);
     }
@@ -40,7 +39,7 @@ public class RaceBuilder {
         // We create the new race object
         Race newRace = new Race(raceName, str, intl, health, luck);
 
-        // We add the race name to the array list
+        // We add the race name to the Map
         raceName = raceName.toUpperCase();
         raceList.put(raceName, newRace);
     }

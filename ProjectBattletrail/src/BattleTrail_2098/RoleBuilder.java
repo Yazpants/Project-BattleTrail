@@ -15,10 +15,8 @@ public class RoleBuilder {
 
 
         addRole("Soldier", " Overall ");
-        addRole("Hacker", " Stealth");
-        addRole("Paladin", " Tank ");
-        addRole("Telepath", " Support ");
-        addRole("Fighter", " Offense ");
+        addRole("Hacker", " Stealth ");
+        addRole("Medic", " Support ");
 
     }
 
@@ -31,7 +29,7 @@ public class RoleBuilder {
         //new role object
         Role newRole = new Role(roleName, roleDescription);
 
-        //add the role name to arrayList
+        //add the role name to Map
         roleName = roleName.toUpperCase();
         roleList.put(roleName, newRole);
     }
