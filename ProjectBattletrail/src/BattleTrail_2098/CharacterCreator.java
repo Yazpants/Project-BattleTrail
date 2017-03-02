@@ -71,7 +71,9 @@ public class CharacterCreator {
     }
 
     public void nameSelect() {
-
+        System.out.println("What is your name? ");
+        String name = input.next();
+        name = name.toUpperCase();
     }
 
     public void finalStep() {
