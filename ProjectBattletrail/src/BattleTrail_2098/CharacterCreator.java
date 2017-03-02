@@ -71,14 +71,20 @@ public class CharacterCreator {
     }
 
     public void nameSelect() {
+        boolean correct = false;
+
         System.out.println("What is your name? ");
         String name = input.next();
-        name = name.toUpperCase();
+        if (name.equals(name)) {
+            player.setName(name);
+        }
+
+        System.out.println();
     }
 
     public void finalStep() {
         System.out.println("Character creation complete!");
-        System.out.println("Welcome! ");
+        System.out.println("Welcome! " + player.getName());
         System.out.println("You picked race " + player.getRaceName());
         System.out.println("You picked the " + player.getRoleName() + " role!");
         double str =0; // dirty hack not sure why i have to do this

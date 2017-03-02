@@ -28,11 +28,11 @@ public class Player {
         // Implement later
 
     }
-    public void getName() {
-
+    public String getName() {
+        return name;
     }
     public void setName(String name) {
-
+        this.name = name;
     }
 
     /**
