@@ -16,7 +16,7 @@ public class RoleBuilder {
 
         addRole("Soldier", " Overall ");
         addRole("Hacker", " Stealth ");
-        addRole("Medic", " Support ");
+        addRole("Telepath", " Support ");
 
     }
 
