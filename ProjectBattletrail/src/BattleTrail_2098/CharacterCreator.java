@@ -90,7 +90,7 @@ public class CharacterCreator {
               "(Passive)\n"  + "STR: " + player.getStr() + " HP: " +
                 player.getHealth() + " INT: " + player.getIntl() + " LUCK: " + player.getLuck());
         System.out.println();
-        firstTestLevel.firstLevel(player);
+        firstTestLevel.firstLevel();
 
     }
 

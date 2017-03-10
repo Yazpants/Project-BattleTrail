@@ -7,8 +7,18 @@ import java.util.Scanner;
  */
 public class FirstTestLevel {
     Scanner sc = new Scanner(System.in);
+    //declares player
+    Player player;
 
-    public void firstLevel(Player player) {
+    /**
+     *
+     * @param player
+     */
+    public FirstTestLevel(Player player) {
+        this.player = player;
+    }
+
+    public void firstLevel() {
         System.out.println("Welcome to Cathcart city\n " + player.getName() + " This is where you'll begin" +
                 " your mission as a " + player.getRoleName() + "\n you will be taking out whoever our employer " +
                 "tells you to. Do you understand?\n [Yes] / [No] ");
@@ -20,7 +30,7 @@ public class FirstTestLevel {
             System.out.println("right....Let's start either way.\n");
             start();
         } else {
-            firstLevel(player);
+            firstLevel();
         }
 
     }
