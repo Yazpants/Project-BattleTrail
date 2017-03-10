@@ -53,7 +53,7 @@ public class CharacterCreator {
         System.out.println("Now finally, select your class:");
         System.out.println("Soldier\n" +
                            "Hacker\n" +
-                           "Fighter");
+                           "Telepath");
         String choice = input.next();
         choice = choice.toUpperCase();
 
