@@ -24,9 +24,9 @@ public class FirstTestLevel {
                 "tells you to. Do you understand?\n [Yes] / [No] ");
 
         String input = sc.next();
-        if (input == "Yes") {
+        if (input.equals("Yes")) {
             start();
-        } else if (input == "No"){
+        } else if (input.equals("No")){
             System.out.println("right....Let's start either way.\n");
             start();
         } else {
