@@ -13,7 +13,6 @@ public class UserCommands {
     Scanner sc = new Scanner(System.in);
 
 
-
-    }
+}
 
 

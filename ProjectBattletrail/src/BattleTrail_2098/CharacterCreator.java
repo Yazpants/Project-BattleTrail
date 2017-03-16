@@ -10,8 +10,8 @@ public class CharacterCreator {
     Player player = new Player();
     RaceBuilder rb = new RaceBuilder();
     RoleBuilder rlb = new RoleBuilder();
-    UserController userController = new UserController();
-    FirstTestLevel firstTestLevel = new FirstTestLevel(player, userController);
+    UserCommands userCommands = new UserCommands();
+    FirstTestLevel firstTestLevel = new FirstTestLevel(player, userCommands);
 
     public void createCharacter() {
         raceSelect();
