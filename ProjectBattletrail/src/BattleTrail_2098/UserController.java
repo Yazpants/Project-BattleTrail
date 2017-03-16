@@ -1,5 +1,6 @@
 package BattleTrail_2098;
 
+import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
 /**
@@ -8,18 +9,28 @@ import java.util.Scanner;
  * Created by victor on 2017-03-14.
  */
 
-//An interface to be implemented by UserController for direction events..maybe ¯\_(ツ)_/¯
-interface DirectionListener {
-    void East();
-    void West();
-    void North();
-    void South();
-}
+//for direction events..maybe ¯\_(ツ)_/¯
 
 public class UserController {
     Scanner sc = new Scanner(System.in);
 
-    public void Directions() {
+    public void Directions(KeyEvent event) {
+        int keyCode = event.getKeyCode();
+
+        switch (keyCode) {
+            case KeyEvent.VK_UP:
+                //Handles up
+                break;
+            case KeyEvent.VK_DOWN:
+                //Handles down
+                break;
+            case KeyEvent.VK_RIGHT:
+                //Handles right
+                break;
+            case KeyEvent.VK_LEFT:
+                //Handles left
+                break;
+        }
 
     }
 

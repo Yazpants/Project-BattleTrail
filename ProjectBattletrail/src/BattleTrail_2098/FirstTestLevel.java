@@ -9,13 +9,16 @@ public class FirstTestLevel {
     Scanner sc = new Scanner(System.in);
     //declares player
     Player player;
+    //declares userController
+     UserController userController;
 
     /**
-     *
+     * @param userController
      * @param player
      */
-    public FirstTestLevel(Player player) {
+    public FirstTestLevel(Player player, UserController userController) {
         this.player = player;
+        this.userController = userController;
     }
 
     public void firstLevel() {
@@ -37,6 +40,9 @@ public class FirstTestLevel {
     public void start() {
         System.out.println("Now, this is a huge city so don't get lost.\n" +
                 "your first contact is not far from here, just head a few miles west.\n" +
-                "Okay, you're on your own now.\n");
+                "Okay, you're on your own now.\n" +
+                "Protip: Use Arrow keys for directions.\n\n");
+
     }
+
 }
