@@ -9,16 +9,16 @@ public class FirstTestLevel {
     Scanner sc = new Scanner(System.in);
     //declares player
     Player player;
-    //declares userCommands
-     UserCommands userCommands;
+    //declares parser
+     Parser parser;
 
     /**
-     * @param userCommands
+     * @param parser
      * @param player
      */
-    public FirstTestLevel(Player player, UserCommands userCommands) {
+    public FirstTestLevel(Player player, Parser parser) {
         this.player = player;
-        this.userCommands = userCommands;
+        this.parser = parser;
     }
 
     public void firstLevel() {
