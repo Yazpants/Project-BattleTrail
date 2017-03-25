@@ -10,7 +10,9 @@ public class FirstTestLevel {
     //declares player
     Player player;
     //declares parser
-     Parser parser;
+    Parser parser;
+    //declares area as currentArea
+    private GameAreas currentArea;
 
     /**
      * @param parser
@@ -19,30 +21,16 @@ public class FirstTestLevel {
     public FirstTestLevel(Player player, Parser parser) {
         this.player = player;
         this.parser = parser;
+        createAreas();
     }
 
-    public void firstLevel() {
-        System.out.println("Welcome to Cathcart city\n " + player.getName() + " This is where you'll begin" +
-                " your mission as a " + player.getRoleName() + "\n you will be taking out whoever our employer " +
-                "tells you to. Do you understand?\n [Yes] / [No] ");
-
-        String input = sc.next();
-        if (input.equals("Yes")) {
-            start();
-        } else if (input.equals("No")){
-            System.out.println("right....Let's start either way.\n");
-            start();
-        } else {
-            firstLevel();
-        }
-
-    }
-    public void start() {
-        System.out.println("Now, this is a huge city so don't get lost.\n" +
-                "your first contact is not far from here, just head a few miles west.\n" +
-                "Okay, you're on your own now.\n" +
-                "Protip: Use Arrow keys for directions.\n\n");
+    /**
+     * create all areas and link their exits
+     */
+    private void createAreas() {
 
     }
 
 }
+
+
