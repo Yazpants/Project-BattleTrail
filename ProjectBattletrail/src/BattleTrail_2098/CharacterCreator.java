@@ -51,7 +51,7 @@ public class CharacterCreator {
         boolean correct = false;
 
         System.out.println();
-        System.out.println("Now finally, select your class:");
+        System.out.println("Select your class:");
         System.out.println("Soldier\n" +
                            "Hacker\n" +
                            "Telepath");
