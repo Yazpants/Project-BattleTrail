@@ -12,8 +12,11 @@ public class FirstTestLevel {
     Player player;
     //declares parser
     Parser parser;
+    //Declares commands
+    Commands commands;
     //declares area as currentArea
     private GameAreas currentArea;
+
 
     /**
      * @param parser implemented from parser class
@@ -96,7 +99,104 @@ public class FirstTestLevel {
         //Watch tower
         Watch_Tower.setExit("west", Armory);
 
+        currentArea = Bar_69; //Starting area
 
+
+    }
+
+   public void playTestLevel() {
+        welcomeToBattleTrail();
+
+        // Enter the main command loop.
+
+       boolean finished = false;
+       while (!finished) {
+           Commands commands = parser.getCommands();
+           finished = processCommand(commands);
+       }
+
+    }
+
+    /**
+     * Print out the opening message for the player.
+     */
+    public void welcomeToBattleTrail() {
+        System.out.println("* Insert prologue message here * ");
+        System.out.println("type 'help' for help");
+        System.out.println(currentArea.getLongDescription());
+    }
+
+    /**
+     *
+     * @param commands the command to be processed
+     * @return true if you want to quit game
+     */
+    private boolean processCommand(Commands commands) {
+
+        boolean goingToQuit = false;
+
+        if (commands.isNotKnown()) {
+            System.out.println("Invalid command");
+            return false;
+        }
+        String commandWord = commands.getCommandWord();
+        if (commandWord.equals("help")) {
+            printHelp();
+        }
+        else if (commandWord.equals("go")) {
+            goArea(commands);
+        }
+        else if (commandWord.equals("quit")) {
+            goingToQuit = quit(commands);
+        }
+        //else command not recognized
+        return goingToQuit;
+    }
+
+    /**
+     * Print a little help message
+     */
+    private void printHelp() {
+        System.out.println("You wander this city of madness\n " +
+                "your command words are: ");
+        parser.showCommands();
+    }
+
+    /**
+     * Try to in to one direction. If there is an exit, enter the new
+     * area, otherwise print an error message.
+     */
+
+    private void goArea(Commands commands) {
+
+        if (!commands.hasSecondWord()) {
+            //if there is no second word, we dont know whre to go
+            System.out.println("Where do you want to go?");
+            return;
+        }
+        String direction = commands.getSecondWord();
+
+        GameAreas nextArea = currentArea.getExit(direction);
+
+        if (nextArea == null) {
+            System.out.println("hm....Nope.");
+        } else {
+            currentArea = nextArea;
+            System.out.println(currentArea.getLongDescription());
+        }
+    }
+    /**
+     * "Quit" was entered. Check the rest of the command to see
+     * whether we really quit the game.
+     * @return true, if this command quits the game, false otherwise.
+     */
+    private boolean quit(Commands commands) {
+        if (commands.hasSecondWord()) {
+            System.out.println("Quit what?");
+            return false;
+        } else {
+            return true;
+        }
     }
 
 }
