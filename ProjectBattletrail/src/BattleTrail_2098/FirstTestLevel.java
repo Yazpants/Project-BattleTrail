@@ -12,8 +12,6 @@ public class FirstTestLevel {
     Player player;
     //declares parser
     Parser parser;
-    //Declares commands
-    Commands commands;
     //declares area as currentArea
     private GameAreas currentArea;
 
