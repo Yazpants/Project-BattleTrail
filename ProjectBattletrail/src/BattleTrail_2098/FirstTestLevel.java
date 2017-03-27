@@ -28,18 +28,20 @@ public class FirstTestLevel {
 
     /**
      * create all areas and link their exits
+     * Areas: Lower city, Middle city, Upper city, Citadel.
      */
     private void createAreas() {
         GameAreas Bar_69, Slum, Hideout, Hotel, Slum_Exit,
                 Middle_city_Entrance, Main_Street, Gun_Store,
                 Armory, Watch_Tower, Shady_corner, General_Store;
 
-        //create the rooms
+        //Lower city
         Bar_69 = new GameAreas("in a shady sex dungeon bar called Bar_69");
         Slum = new GameAreas("in the most vile part of the city");
         Hideout = new GameAreas("in a gang hideout");
         Hotel = new GameAreas("in an old empty hotel..seems strange");
         Slum_Exit =  new GameAreas("the exit from the slum to middle city");
+
         //Midle part of city
         Middle_city_Entrance = new GameAreas("in the not so shitty area of the city");
         Armory = new GameAreas("in the middle city armory");
@@ -49,6 +51,11 @@ public class FirstTestLevel {
         General_Store = new GameAreas(" in the store, get to the shopping ");
         Main_Street = new GameAreas("in the mainstreet of middle city");
         Gun_Store = new GameAreas(" in the gunstore, buy some weapons");
+        //Upper city
+        //Will create at a later point in time
+
+        //Citadel
+        //Create later
 
         // initialize area exits
 
